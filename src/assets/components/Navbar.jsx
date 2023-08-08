@@ -13,7 +13,7 @@ const Navbar = () => {
 
   return (
     <>
-    <div className="navbar" id={ Navbartoggle ? 'open' : ''}>
+    <div className="navbar" id={Navbartoggle ? 'open' : ''}>
       <div className="toggleButton">
         <button onClick={() => {setNavbartoggle((Navbartoggle) => !Navbartoggle)}}>
           <Reorder />
