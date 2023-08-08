@@ -13,13 +13,13 @@ const Navbar = () => {
 
   return (
     <>
-    <div className="navbar" id={Navbartoggle ? 'open' : ''}>
+    <div className="navbar" id={Navbartoggle ? 'open' : 'close'}>
       <div className="toggleButton">
         <button onClick={() => {setNavbartoggle((Navbartoggle) => !Navbartoggle)}}>
           <Reorder />
         </button>
         </div>
-      <div className="links">
+        <div className="links">
         <Link to= './'> Home </Link>
         <Link to= './Projects'> Projects </Link>
       </div>

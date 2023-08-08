@@ -1,6 +1,5 @@
 import { GitHub, Mail } from '@material-ui/icons'
 import '../styles/Home.css'
-import { Link } from 'react-router-dom'
 
 const Home = () => {
   return (

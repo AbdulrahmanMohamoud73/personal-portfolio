@@ -5,6 +5,7 @@
     color: #294f7a;
   }
 
+
   .about {
     width: 100%;
     height: calc(100vh - 100px);
@@ -19,9 +20,9 @@
   
   .about h2 {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 80px;
+    font-size: 65px;
     color: #f8e369;
-    height: 50px;
+    width: 80%;
   }
   
   .about .prompt {
@@ -51,7 +52,7 @@
     list-style: none;
     text-align: center;
     width: 100%;
-    margin: 100px 0;
+    margin: 10px 0;
   }
   
   .list span {
@@ -66,7 +67,7 @@
     .about .prompt {
       margin-top: 10px;
       font-size: 20px;
-      width: 80%;
+
     }
   
     .skills {
